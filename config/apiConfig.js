@@ -2,9 +2,11 @@
 // API KONFİGÜRASYONU - YENİ BACKEND SİSTEMİ
 // ========================================
 
+//çok yoruldummmmmmmmmm
+
 // Backend API URL'leri
-export const BACKEND_URL = 'http://192.168.1.66:3000/api';
-export const API_BASE_URL = 'http://192.168.1.66:3000';
+export const BACKEND_URL = 'http://192.168.1.75:3000/api';
+export const API_BASE_URL = 'http://192.168.1.75:3000';
 
 // Gemini API endpoint'i
 export const GEMINI_API_ENDPOINT = `${BACKEND_URL}/gemini`;

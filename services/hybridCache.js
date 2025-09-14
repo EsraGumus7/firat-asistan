@@ -163,8 +163,8 @@ class HybridCacheService {
   async fetchFromNetwork(category, endpointKey, params) {
     try {
       // API service'den veri al
-      const { callEndpoint } = await import('./apiService');
-      const result = await callEndpoint(category, endpointKey, params, 'no_cache');
+      const apiService = require('./apiService');
+      const result = await apiService.callEndpoint(category, endpointKey, params, 'no_cache');
       
       if (result && result.status === 'success') {
         return result.data;

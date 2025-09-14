@@ -412,7 +412,7 @@ export const generateDetailedPrompts = async () => {
     console.log('📋 Detaylı prompt'lar oluşturuluyor...');
     
     // Backend'den endpoint'leri al
-    const response = await fetch('http://192.168.1.66:3000/api/endpoints', {
+    const response = await fetch('http://192.168.1.75:3000/api/endpoints', {
       timeout: 15000, // 15 saniye timeout
       headers: {
         'Content-Type': 'application/json'
