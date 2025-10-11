@@ -409,10 +409,10 @@ export const getTurkishCharacterSuggestion = (word) => {
 // Backend'den endpoint'leri al ve prompt oluştur
 export const generateDetailedPrompts = async () => {
   const apiCall = async () => {
-    console.log('📋 Detaylı prompt'lar oluşturuluyor...');
+    console.log('📋 Detaylı promptlar oluşturuluyor...');
     
     // Backend'den endpoint'leri al
-    const response = await fetch('http://192.168.1.75:3000/api/endpoints', {
+    const response = await fetch('http://192.168.1.85:3000/api/endpoints', {
       timeout: 15000, // 15 saniye timeout
       headers: {
         'Content-Type': 'application/json'
@@ -439,7 +439,7 @@ export const generateDetailedPrompts = async () => {
       });
     });
     
-    console.log('✅ Detaylı prompt\'lar oluşturuldu:', detailedPrompts.length, 'adet');
+    console.log('✅ Detaylı promptlar oluşturuldu:', detailedPrompts.length, 'adet');
     return detailedPrompts;
   };
 
@@ -456,7 +456,7 @@ export const generateDetailedPrompts = async () => {
     console.error('❌ Detaylı prompt oluşturma hatası (retry sonrası):', error);
     
     // Fallback: Varsayılan prompt'ları döndür
-    console.log('🔄 Fallback prompt\'lar kullanılıyor...');
+    console.log('🔄 Fallback promptlar kullanılıyor...');
     return getFallbackPrompts();
   }
 };
@@ -551,7 +551,7 @@ const extractFacultyName = (description) => {
 
 // Backend'den veri alınamadığında kullanılacak varsayılan prompt'lar
 const getFallbackPrompts = () => {
-  console.log('🔄 Fallback prompt\'lar oluşturuluyor...');
+  console.log('🔄 Fallback promptlar oluşturuluyor...');
   
   return [
     // Yemek endpoint'i

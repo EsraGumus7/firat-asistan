@@ -27,10 +27,9 @@ export default function RootLayout() {
       setTimeout(() => {
         try {
           // Kasıtlı hata oluştur
-          const obj = null;
-          obj.test = 'Bu hata yakalanmalı';
+          throw new Error('Test hatası - Global Error Handler test ediliyor');
         } catch (error) {
-          console.log('✅ Global Error Handler test başarılı - hata yakalandı:', error.message);
+          console.log('✅ Global Error Handler test başarılı - hata yakalandı:', (error as Error).message);
         }
       }, 2000);
     }

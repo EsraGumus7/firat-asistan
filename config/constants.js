@@ -164,7 +164,7 @@ export const MAPPING_PRIORITIES = {
 
 export const SYSTEM_CONSTANTS = {
   // Backend URL'leri
-  BACKEND_BASE_URL: 'http://192.168.1.75:3000',
+  BACKEND_BASE_URL: 'http://192.168.1.85:3000',
   API_BASE_PATH: '/api',
   
   // Mapping endpoint'leri
