@@ -30,6 +30,31 @@
 
 ---
 
+## 📸 Ekran Görüntüleri
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="docs/images/fm1.jpeg" alt="Ana Ekran - Chat Arayüzü" width="100%"/>
+<br><strong>Ana Ekran - Chat Arayüzü</strong>
+</td>
+<td align="center" width="33%">
+<img src="docs/images/fm2.jpeg" alt="Hava Durumu Widget ve Dil Seçimi" width="100%"/>
+<br><strong>Hava Durumu Widget</strong>
+</td>
+<td align="center" width="33%">
+<img src="docs/images/fm3.jpeg" alt="Fakülte Duyuruları ve API Entegrasyonu" width="100%"/>
+<br><strong>Fakülte Duyuruları</strong>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
 ## 💼 Edinilen Beceriler ve Teknolojiler
 
 ### 🎨 **Frontend Geliştirme**
@@ -143,23 +168,6 @@
 - **Yabancı Dil Desteği** - Genişletilebilir dil mimarisi
 - **Dinamik Dil Değiştirme** - Uygulama içinde anlık dil değiştirme
 - **Yerelleştirme** - Tüm içerikler için yerelleştirme
-
----
-
-## 📸 Ekran Görüntüleri
-
-<div align="center">
-
-### Ana Ekran - Chat Arayüzü
-![Ana Ekran](docs/images/fm1.jpeg)
-
-### Hava Durumu Widget ve Dil Seçimi
-![Hava Durumu](docs/images/fm2.jpeg)
-
-### Fakülte Duyuruları ve API Entegrasyonu
-![Fakülte Duyuruları](docs/images/fm3.jpeg)
-
-</div>
 
 ---
 
