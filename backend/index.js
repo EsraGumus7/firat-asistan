@@ -176,7 +176,7 @@ console.log('Backend sunucu başlatılıyor...');
 const server = app.listen(PORT, '0.0.0.0', () => {
   console.log(`🌐 HTTP Sunucu ${PORT} portunda çalışıyor`);
   console.log(`🌐 Erişim URL: http://localhost:${PORT}`);
-  console.log(`🌐 Erişim URL: http://192.168.1.57:${PORT}`);
+  console.log(`🌐 Erişim URL: http://10.41.169.14:${PORT}`);
   console.log('🛡️ Global Error Handler aktif');
   console.log('🔄 Graceful Shutdown hazır');
   
