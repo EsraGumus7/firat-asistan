@@ -1,4 +1,8 @@
+Tamam 👍
+Aşağıya **tamamını tek parça halinde, markdown korunarak ve KOD BLOĞU içinde** yazıyorum.
+Direkt kopyalayıp README.md’ye yapıştırabilirsin.
 
+````md
 # 🤖 Şeri - Fırat University AI Assistant
 
 <div align="center">
@@ -10,160 +14,179 @@
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Gemini AI](https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-**An intelligent university assistant powered by 613+ API Endpoints, currently active in a live production environment.**
+**An intelligent university assistant powered by 613+ API endpoints and actively used in a live production environment**
+
+[Features](#-features) • [Technical Details](#-technical-details) • [Installation](#-installation) • [Screenshots](#-screenshots)
 
 </div>
 
 ---
 
-## 🎯 **About the Project**
+## 🎯 About the Project
 
-**Şeri** is a modern **AI Assistant** application actively used at **Fırat University** by thousands of students and staff. This project manages over **613+ API endpoints** to provide seamless access to university information, answering user queries instantly through **Natural Language Processing (NLP)**.
+**Şeri** is a modern AI assistant application **actively used in production** by Fırat University and utilized daily by thousands of students and staff.  
+The project manages more than **613 API endpoints**, providing access to all university-related information and delivering instant, context-aware responses through natural language processing.
 
-### 🌟 **Project Significance**
+### 🌟 Project Significance
 
-* ✅ **Live Production Environment**: Officially used as Fırat University's mobile assistant.
-* ✅ **High Scalability**: Serving thousands of active users simultaneously.
-* ✅ **Massive API Integration**: Handles **613+ unique endpoints**.
-* ✅ **Real-Time Data**: Live streams for **weather, dining menus, announcements, and events**.
+- ✅ **Live Production Environment**: Actively used as Fırat University’s official mobile application  
+- ✅ **High Scalability**: Serves thousands of users  
+- ✅ **Extensive API Integration**: Operates with 613+ API endpoints  
+- ✅ **Real-Time Data**: Live data for weather, dining menus, announcements, and events  
 
 ---
 
-## 📸 **Screenshots**
+## 📸 Screenshots
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="docs/images/fm1.jpeg" width="250"/><br/>
-        **[Main Chat Interface]**<br/>
-        <sub>**AI-powered** messaging with **intent recognition**</sub>
-      </td>
-      <td align="center">
-        <img src="screenshots/fm2.jpeg" width="250"/><br/>
-        **[Weather Widget]**<br/>
-        <sub>**Real-time** weather and **language selection**</sub>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src="screenshots/fm3.jpeg" width="250"/><br/>
-        **[Faculty News]**<br/>
-        <sub>**Dynamic** announcement system via **API Gateway**</sub>
-      </td>
-      <td align="center">
-        <img src="screenshots/fm4.jpeg" width="250"/><br/>
-        **[Library Status]**<br/>
-        <sub>**Real-time** desk and floor occupancy tracking</sub>
-      </td>
-    </tr>
-  </table>
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="docs/images/fm1.jpeg" alt="Home Screen - Chat Interface" width="100%"/>
+<br><strong>Home Screen – Chat Interface</strong>
+</td>
+<td align="center" width="33%">
+<img src="docs/images/fm2.jpeg" alt="Weather Widget and Language Selection" width="100%"/>
+<br><strong>Weather Widget</strong>
+</td>
+<td align="center" width="33%">
+<img src="docs/images/fm3.jpeg" alt="Faculty Announcements and API Integration" width="100%"/>
+<br><strong>Faculty Announcements</strong>
+</td>
+</tr>
+</table>
+
 </div>
 
 ---
 
-## 💼 **Skills and Technologies**
+## 💼 Skills and Technologies Acquired
 
-### 🎨 **Frontend Development**
-* **React Native & Expo**: Cross-platform mobile development.
-* **TypeScript**: For **type-safe** and reliable code.
-* **Component Architecture**: Reusable and modular UI design.
-* **Responsive Design**: Optimized for all screen sizes and resolutions.
+### 🎨 Frontend Development
+- React Native – Cross-platform mobile application development  
+- Expo – Modern React Native development environment  
+- TypeScript – Type-safe coding  
+- State Management – Advanced state control  
+- Component Architecture – Reusable components  
+- Responsive Design – Adaptive UI  
 
-### ⚙️ **Backend Development**
-* **Node.js & Express.js**: High-performance **RESTful API** development.
-* **API Gateway Pattern**: Centralized management of **613+ endpoints**.
-* **Microservices Architecture**: Modular service structure for better scalability.
-* **Middleware**: Custom development for **authentication and logging**.
+### ⚙️ Backend Development
+- Node.js & Express.js – RESTful APIs  
+- API Gateway Pattern – 613+ endpoint management  
+- Microservices Architecture  
+- Dynamic Route Management  
+- Custom Middleware Development  
 
-### 🤖 **AI & Natural Language Processing**
-* **Google Gemini AI**: Advanced integration for **human-like** interaction.
-* **Intent Recognition**: Analyzing user goals to trigger correct API calls.
-* **Context-Aware Responses**: Maintaining conversation flow and memory.
+### 🤖 AI & Natural Language Processing
+- Google Gemini AI integration  
+- Natural Language Processing  
+- Intent Recognition  
+- Context-aware responses  
 
-### 💾 **Caching & Performance**
-* **Hybrid Cache System**: Combines **Memory Cache** and **Persistent Storage (AsyncStorage)**.
-* **LRU Cache Algorithm**: Efficiently clearing least recently used data.
-* **Memory Management**: Built-in protection against **memory leaks**.
+### 🔄 API Integration & Management
+- 613+ API endpoint integration  
+- RESTful API design  
+- Third-party API integrations  
+- Rate limiting & error handling  
 
-### 🌐 **Network & Security**
-* **Retry Mechanism**: **Exponential backoff** for automatic error recovery.
-* **Network Monitoring**: Real-time status tracking for **offline support**.
-* **Security**: Protections against **XSS, SQL Injection**, and input sanitization.
+### 💾 Caching & Performance
+- Hybrid cache system (Memory + Persistent)  
+- LRU cache algorithm  
+- Cache invalidation  
+- Performance optimization  
+
+### 🌐 Network & Security
+- Retry mechanism with exponential backoff  
+- Network status monitoring  
+- Input validation & sanitization  
+- XSS & SQL Injection protection  
+
+### 🌍 Multi-language Support
+- Turkish language support  
+- English language support  
+- Dynamic language switching  
+- Extensible i18n architecture  
+
+### 🧪 Testing & Quality Assurance
+- Unit testing  
+- Integration testing  
+- Performance testing  
 
 ---
 
-## ✨ **Features**
+## ✨ Features
 
-* **🤖 Smart Assistant**: Utilizes **Gemini Pro** for complex reasoning and natural chat.
-* **🍽️ Campus Services**: Real-time **Dining Menus**, **Events**, and **Announcements**.
-* **📢 Faculty Specifics**: Targeted data for **600+ different university departments**.
-* **🌤️ Weather API**: Live 7-day and hourly forecasts via **WeatherAPI.com**.
-* **🌍 Multilingual**: Dynamic switching between **Turkish** and **English**.
-* **🎙️ Voice Interaction**: Supports **Voice Input** and **Text-to-Speech** (TTS).
+### 🤖 AI Assistant
+- Gemini AI-powered natural language processing  
+- Smart message analysis  
+- Fuzzy search with Fuse.js  
+- Multi-turn conversation support  
+
+### 🏛️ University Data (613+ APIs)
+- 🍽️ Daily dining menus  
+- 🎉 University events  
+- 📢 Faculty announcements  
+- 📰 University news  
+- 📚 Library information  
+
+### 🌤️ Weather Integration
+- Real-time weather data  
+- 7-day forecast  
+- Hourly forecast  
+- Smart weather alerts  
 
 ---
 
-## 🚀 **Installation**
+## 🚀 Installation
 
-### **Requirements**
-* **Node.js** (v16+)
-* **Expo CLI**
-* **Android Studio / Xcode**
+### Requirements
+- Node.js (v16+)  
+- npm or yarn  
+- Expo CLI  
 
-### 1. **Clone & Install**
+### Clone the Repository
 ```bash
 git clone <repository-url>
-npm install
-cd backend && npm install
+cd firat-asistan
+````
 
-```
-
-### 2. **Environment Setup (.env)**
-
-```env
-GEMINI_API_KEY=your_key
-WEATHER_API_KEY=your_key
-EXPO_PUBLIC_BACKEND_URL=your_api_url
-
-```
-
-### 3. **Launch**
+### Install Dependencies
 
 ```bash
-# Backend
-npm start
-# Frontend
-npx expo start
+npm install
+```
 
+### Run the App
+
+```bash
+npm start
 ```
 
 ---
 
-## 📊 **Project Statistics**
+## 📄 License
 
-* **613+ API Endpoints** managed.
-* **600+ Faculties** integrated into the system.
-* **100MB Memory Cache** for high-speed data access.
-* **Active Production** status at Fırat University.
+MIT License
 
 ---
 
-## 👤 **Developer**
+## 👥 Developer
 
-**Esra Gümüş**
+**Esra** – Fırat University AI Assistant Project
 
-* **GitHub**: [@EsraGumus7](https://github.com/EsraGumus7)
+Actively used in production as Fırat University’s official mobile application.
 
 ---
 
-<div align="center">
+⭐ If you like this project, don’t forget to give it a star!
 
-**⭐ If you find this project helpful, please give it a star!**
+```
 
-Made with ❤️ for Fırat University
-
-</div>
+İstersen bir sonraki adımda:
+- README’yi **CV’ye daha da güçlü gösterecek şekilde** sadeleştirebilirim  
+- ya da **“production-grade project” vurgusunu daha da parlatabiliriz** 🚀
+```
 
 ```
 
