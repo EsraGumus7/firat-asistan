@@ -1,142 +1,155 @@
 
 # 🤖 Şeri - Fırat University AI Assistant
 
-> **Note:** For the Turkish version of this documentation, [click here](#-türkçe-açıklama).
-> **Not:** Bu dökümantasyonun Türkçe versiyonu için [buraya tıklayın](#-türkçe-açıklama).
+<div align="center">
+
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Gemini AI](https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+**An intelligent university assistant powered by 613+ API Endpoints, currently active in a live production environment.**
+
+</div>
 
 ---
 
-## 🇺🇸 **English Documentation**
+## 🎯 **About the Project**
 
-### **🎯 About the Project**
-**Şeri** is a modern **AI Assistant** application actively used in a **live production environment** by students and staff at **Fırat University**. It manages over **613+ API endpoints** to provide instant information about university services, faculty announcements, and campus life using advanced **Natural Language Processing (NLP)**.
+**Şeri** is a modern **AI Assistant** application actively used at **Fırat University** by thousands of students and staff. This project manages over **613+ API endpoints** to provide seamless access to university information, answering user queries instantly through **Natural Language Processing (NLP)**.
 
-### 📸 **Screenshots**
+### 🌟 **Project Significance**
+
+* ✅ **Live Production Environment**: Officially used as Fırat University's mobile assistant.
+* ✅ **High Scalability**: Serving thousands of active users simultaneously.
+* ✅ **Massive API Integration**: Handles **613+ unique endpoints**.
+* ✅ **Real-Time Data**: Live streams for **weather, dining menus, announcements, and events**.
+
+---
+
+## 📸 **Screenshots**
 
 <div align="center">
   <table>
     <tr>
       <td align="center">
-        <img src="docs/images/fm1.jpeg" width="200"/><br/>
-        **[Chat Interface]**<br/>
-        <sub>**AI-powered** messaging interface</sub>
+        <img src="docs/images/fm1.jpeg" width="250"/><br/>
+        **[Main Chat Interface]**<br/>
+        <sub>**AI-powered** messaging with **intent recognition**</sub>
       </td>
       <td align="center">
-        <img src="docs/images/fm2.jpeg" width="200"/><br/>
+        <img src="screenshots/fm2.jpeg" width="250"/><br/>
         **[Weather Widget]**<br/>
-        <sub>**Real-time** weather and language selection</sub>
-      </td>
-      <td align="center">
-        <img src="docs/images/fm3.jpeg" width="200"/><br/>
-        **[Faculty News]**<br/>
-        <sub>**Dynamic** announcement system</sub>
+        <sub>**Real-time** weather and **language selection**</sub>
       </td>
     </tr>
-  </table>
-</div>
-
-### 📱 **Key Features**
-* **🤖 AI Core**: Powered by **Google Gemini AI** for context-aware, human-like responses.
-* **🏛️ University Integration**: Real-time access to **Dining Menu**, **Campus Events**, and **Library Status**.
-* **📢 Faculty System**: Managed access to **613+ unique endpoints** covering all university departments.
-* **🌤️ Weather Integration**: Live weather updates and smart recommendations via **WeatherAPI**.
-* **🌍 Multilingual**: Full support for **Turkish** and **English** with dynamic switching.
-* **💾 Performance**: Advanced **Hybrid Cache System** (Memory + Persistent) for lightning-fast responses.
-
-### 🛠️ **Tech Stack**
-* **Frontend**: **React Native**, **Expo**, **TypeScript**.
-* **Backend**: **Node.js**, **Express.js**.
-* **AI Engine**: **Google Gemini Pro**.
-* **Search**: **Fuse.js** for intelligent fuzzy matching.
-* **Storage**: **AsyncStorage** & custom **LRU Cache** logic.
-
----
-
-## 🇹🇷 **Türkçe Açıklama**
-
-### **🎯 Proje Hakkında**
-**Şeri**, Fırat Üniversitesi bünyesinde **canlı üretim ortamında** aktif olarak kullanılan, binlerce öğrenci ve personele hizmet veren modern bir **AI asistan** uygulamasıdır. **613'ten fazla API endpoint'ini** yöneterek üniversite ekosistemine dair tüm bilgileri **Doğal Dil İşleme (NLP)** yetenekleri ile anlık olarak sunar.
-
-
-
-### 📸 **Ekran Görüntüleri**
-
-<div align="center">
-  <table>
     <tr>
       <td align="center">
-        <img src="docs/images/fm1.jpeg" width="200"/><br/>
-        **[Chat Arayüzü]**<br/>
-        <sub>**Yapay Zeka** destekli mesajlaşma alanı</sub>
+        <img src="screenshots/fm3.jpeg" width="250"/><br/>
+        **[Faculty News]**<br/>
+        <sub>**Dynamic** announcement system via **API Gateway**</sub>
       </td>
       <td align="center">
-        <img src="docs/images/fm2.jpeg" width="200"/><br/>
-        **[Hava Durumu]**<br/>
-        <sub>**Anlık** hava durumu ve dil seçimi</sub>
-      </td>
-      <td align="center">
-        <img src="docs/images/fm3.jpeg" width="200"/><br/>
-        **[Fakülte Haberleri]**<br/>
-        <sub>**Dinamik** duyuru ve haber sistemi</sub>
+        <img src="screenshots/fm4.jpeg" width="250"/><br/>
+        **[Library Status]**<br/>
+        <sub>**Real-time** desk and floor occupancy tracking</sub>
       </td>
     </tr>
   </table>
 </div>
 
-### 📱 **Öne Çıkan Özellikler**
-* **🤖 AI Asistan**: **Google Gemini AI** entegrasyonu ile bağlam farkındalıklı yanıtlar.
-* **🏛️ Üniversite Entegrasyonu**: **Yemek Menüsü**, **Etkinlikler** ve **Kütüphane Doluluk** oranlarına anlık erişim.
-* **📢 Geniş API Ağı**: Tüm fakülteleri kapsayan **613+ farklı endpoint** yönetimi.
-* **🌤️ Hava Durumu**: WeatherAPI entegrasyonu ile ana ekranda **canlı tahminler** ve öneriler.
-* **🌍 Çoklu Dil**: **Türkçe** ve **İngilizce** dilleri arasında dinamik geçiş desteği.
-* **💾 Performans**: **Hybrid Cache** (RAM + Kalıcı Hafıza) stratejisi ile minimum gecikme.
+---
 
-### 🛠️ **Teknolojiler**
-* **Frontend**: **React Native**, **Expo**, **TypeScript**.
-* **Backend**: **Node.js**, **Express.js** (API Gateway Pattern).
-* **Yapay Zeka**: **Google Gemini Pro**.
-* **Arama Algoritması**: **Fuse.js** ile akıllı niyet tanıma.
-* **Önbellekleme**: **LRU Cache** algoritması ve **AsyncStorage**.
+## 💼 **Skills and Technologies**
+
+### 🎨 **Frontend Development**
+* **React Native & Expo**: Cross-platform mobile development.
+* **TypeScript**: For **type-safe** and reliable code.
+* **Component Architecture**: Reusable and modular UI design.
+* **Responsive Design**: Optimized for all screen sizes and resolutions.
+
+### ⚙️ **Backend Development**
+* **Node.js & Express.js**: High-performance **RESTful API** development.
+* **API Gateway Pattern**: Centralized management of **613+ endpoints**.
+* **Microservices Architecture**: Modular service structure for better scalability.
+* **Middleware**: Custom development for **authentication and logging**.
+
+### 🤖 **AI & Natural Language Processing**
+* **Google Gemini AI**: Advanced integration for **human-like** interaction.
+* **Intent Recognition**: Analyzing user goals to trigger correct API calls.
+* **Context-Aware Responses**: Maintaining conversation flow and memory.
+
+### 💾 **Caching & Performance**
+* **Hybrid Cache System**: Combines **Memory Cache** and **Persistent Storage (AsyncStorage)**.
+* **LRU Cache Algorithm**: Efficiently clearing least recently used data.
+* **Memory Management**: Built-in protection against **memory leaks**.
+
+### 🌐 **Network & Security**
+* **Retry Mechanism**: **Exponential backoff** for automatic error recovery.
+* **Network Monitoring**: Real-time status tracking for **offline support**.
+* **Security**: Protections against **XSS, SQL Injection**, and input sanitization.
 
 ---
 
-### 🚀 **Kurulum (Quick Start)**
+## ✨ **Features**
 
-1. **Repository'yi klonlayın:**
-   ```bash
-   git clone <repo-url>
+* **🤖 Smart Assistant**: Utilizes **Gemini Pro** for complex reasoning and natural chat.
+* **🍽️ Campus Services**: Real-time **Dining Menus**, **Events**, and **Announcements**.
+* **📢 Faculty Specifics**: Targeted data for **600+ different university departments**.
+* **🌤️ Weather API**: Live 7-day and hourly forecasts via **WeatherAPI.com**.
+* **🌍 Multilingual**: Dynamic switching between **Turkish** and **English**.
+* **🎙️ Voice Interaction**: Supports **Voice Input** and **Text-to-Speech** (TTS).
+
+---
+
+## 🚀 **Installation**
+
+### **Requirements**
+* **Node.js** (v16+)
+* **Expo CLI**
+* **Android Studio / Xcode**
+
+### 1. **Clone & Install**
+```bash
+git clone <repository-url>
+npm install
+cd backend && npm install
 
 ```
 
-2. **Bağımlılıkları yükleyin (Frontend & Backend):**
-```bash
-npm install && cd backend && npm install
+### 2. **Environment Setup (.env)**
+
+```env
+GEMINI_API_KEY=your_key
+WEATHER_API_KEY=your_key
+EXPO_PUBLIC_BACKEND_URL=your_api_url
 
 ```
 
+### 3. **Launch**
 
-3. **Environment (.env) ayarlarını yapın:**
-`GEMINI_API_KEY`, `WEATHER_API_KEY` ve `BACKEND_URL` bilgilerini girin.
-4. **Çalıştırın:**
 ```bash
+# Backend
 npm start
+# Frontend
+npx expo start
 
 ```
 
+---
 
+## 📊 **Project Statistics**
+
+* **613+ API Endpoints** managed.
+* **600+ Faculties** integrated into the system.
+* **100MB Memory Cache** for high-speed data access.
+* **Active Production** status at Fırat University.
 
 ---
 
-### 📊 **Proje İstatistikleri**
-
-* **613+** Yönetilen API Endpoint'i.
-* **600+** Entegre Fakülte ve Birim.
-* **100MB+** RAM Önbellek Yönetimi.
-* **Canlı Kullanım**: Fırat Üniversitesi resmi desteğiyle aktif.
-
----
-
-### 👤 **Geliştirici**
+## 👤 **Developer**
 
 **Esra Gümüş**
 
@@ -146,13 +159,16 @@ npm start
 
 <div align="center">
 
-**⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!**
+**⭐ If you find this project helpful, please give it a star!**
 
 Made with ❤️ for Fırat University
 
 </div>
 
+```
 
+
+```
 
 
 
