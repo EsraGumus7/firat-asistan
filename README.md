@@ -41,15 +41,18 @@
 <tr>
 <td align="center" width="33%">
 <img src="docs/images/fm1.jpeg" alt="Home Screen - Chat Interface" width="100%"/>
-<br><strong>Home Screen - Chat Interface</strong>
+<br><strong>Home Screen – AI Chat Interface
+AI-powered conversational interface for accessing university services and information.</strong>
 </td>
 <td align="center" width="33%">
 <img src="docs/images/fm2.jpeg" alt="Weather Widget and Language Selection" width="100%"/>
-<br><strong>Weather Widget</strong>
+<br><strong>Faculty Announcements & API Integration
+Live faculty announcements fetched through integrated university APIs.</strong>
 </td>
 <td align="center" width="33%">
 <img src="docs/images/fm3.jpeg" alt="Faculty Announcements and API Integration" width="100%"/>
-<br><strong>Faculty Announcements</strong>
+<br><strong>Weather Widget & Language Selection
+Real-time weather information with dynamic language switching support.</strong>
 </td>
 </tr>
 </table>
