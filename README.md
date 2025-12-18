@@ -1,8 +1,4 @@
-Tamam 👍
-Aşağıya **tamamını tek parça halinde, markdown korunarak ve KOD BLOĞU içinde** yazıyorum.
-Direkt kopyalayıp README.md’ye yapıştırabilirsin.
 
-````md
 # 🤖 Şeri - Fırat University AI Assistant
 
 <div align="center">
@@ -14,7 +10,7 @@ Direkt kopyalayıp README.md’ye yapıştırabilirsin.
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Gemini AI](https://img.shields.io/badge/Gemini_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-**An intelligent university assistant powered by 613+ API endpoints and actively used in a live production environment**
+**Smart University Assistant Powered by 613+ API Endpoints, Used in Live Production Environment**
 
 [Features](#-features) • [Technical Details](#-technical-details) • [Installation](#-installation) • [Screenshots](#-screenshots)
 
@@ -24,15 +20,14 @@ Direkt kopyalayıp README.md’ye yapıştırabilirsin.
 
 ## 🎯 About the Project
 
-**Şeri** is a modern AI assistant application **actively used in production** by Fırat University and utilized daily by thousands of students and staff.  
-The project manages more than **613 API endpoints**, providing access to all university-related information and delivering instant, context-aware responses through natural language processing.
+**Şeri** is a modern AI assistant application **used live** by Fırat University and actively utilized by thousands of students and staff. This project manages over 613 API endpoints to provide access to all university-related information and instantly answers user queries using natural language processing.
 
-### 🌟 Project Significance
+### 🌟 Project Importance
 
-- ✅ **Live Production Environment**: Actively used as Fırat University’s official mobile application  
-- ✅ **High Scalability**: Serves thousands of users  
-- ✅ **Extensive API Integration**: Operates with 613+ API endpoints  
-- ✅ **Real-Time Data**: Live data for weather, dining menus, announcements, and events  
+- ✅ **Live Production Environment**: Actively used as the official mobile application of Fırat University.
+- ✅ **High Scalability**: Serves thousands of users.
+- ✅ **Comprehensive API Integration**: Works with 613+ different API endpoints.
+- ✅ **Real-Time Data**: Live data stream for weather, dining menus, announcements, and events.
 
 ---
 
@@ -44,7 +39,7 @@ The project manages more than **613 API endpoints**, providing access to all uni
 <tr>
 <td align="center" width="33%">
 <img src="docs/images/fm1.jpeg" alt="Home Screen - Chat Interface" width="100%"/>
-<br><strong>Home Screen – Chat Interface</strong>
+<br><strong>Home Screen - Chat Interface</strong>
 </td>
 <td align="center" width="33%">
 <img src="docs/images/fm2.jpeg" alt="Weather Widget and Language Selection" width="100%"/>
@@ -63,131 +58,293 @@ The project manages more than **613 API endpoints**, providing access to all uni
 
 ## 💼 Skills and Technologies Acquired
 
-### 🎨 Frontend Development
-- React Native – Cross-platform mobile application development  
-- Expo – Modern React Native development environment  
-- TypeScript – Type-safe coding  
-- State Management – Advanced state control  
-- Component Architecture – Reusable components  
-- Responsive Design – Adaptive UI  
+### 🎨 **Frontend Development**
+- **React Native** - Cross-platform mobile application development
+- **Expo Framework** - Modern React Native development environment
+- **TypeScript** - Type-safe coding
+- **State Management** - Advanced state control and management
+- **Component Architecture** - Reusable component architecture
+- **Responsive Design** - Design compatible with different screen sizes
 
-### ⚙️ Backend Development
-- Node.js & Express.js – RESTful APIs  
-- API Gateway Pattern – 613+ endpoint management  
-- Microservices Architecture  
-- Dynamic Route Management  
-- Custom Middleware Development  
+### ⚙️ **Backend Development**
+- **Node.js & Express.js** - RESTful API development
+- **API Gateway Pattern** - Management of 613+ endpoints
+- **Microservices Architecture** - Modular service structure
+- **Route Management** - Dynamic route creation and management
+- **Middleware Development** - Custom middleware development
 
-### 🤖 AI & Natural Language Processing
-- Google Gemini AI integration  
-- Natural Language Processing  
-- Intent Recognition  
-- Context-aware responses  
+### 🤖 **AI and Natural Language Processing**
+- **Google Gemini AI** - Advanced AI integration
+- **Natural Language Processing** - Natural language understanding and processing
+- **Intent Recognition** - User intent recognition
+- **Context-Aware Responses** - Context-aware replies
 
-### 🔄 API Integration & Management
-- 613+ API endpoint integration  
-- RESTful API design  
-- Third-party API integrations  
-- Rate limiting & error handling  
+### 🔄 **API Integration and Management**
+- **613+ API Endpoint Management** - Large-scale API integration
+- **RESTful API Design** - Standard API design principles
+- **API Gateway Implementation** - Centralized API management
+- **Third-Party API Integration** - Weather API, Gemini AI integration
+- **Rate Limiting** - API usage optimization
+- **Error Handling** - Comprehensive error management
 
-### 💾 Caching & Performance
-- Hybrid cache system (Memory + Persistent)  
-- LRU cache algorithm  
-- Cache invalidation  
-- Performance optimization  
+### 💾 **Cache and Performance Optimization**
+- **Hybrid Cache System** - Memory + Persistent cache strategy
+- **LRU Cache Algorithm** - Cleaning least used items
+- **Cache Invalidation** - Smart cache cleaning mechanism
+- **Performance Optimization** - Application performance optimization
+- **Memory Management** - Memory leak protection
 
-### 🌐 Network & Security
-- Retry mechanism with exponential backoff  
-- Network status monitoring  
-- Input validation & sanitization  
-- XSS & SQL Injection protection  
+### 🌐 **Network and Security**
+- **Retry Mechanism** - Automatic retry with exponential backoff
+- **Network Status Monitoring** - Network status tracking
+- **Error Recovery** - Error recovery mechanisms
+- **Input Validation & Sanitization** - Secure data entry
+- **XSS & SQL Injection Protection** - Security measures
 
-### 🌍 Multi-language Support
-- Turkish language support  
-- English language support  
-- Dynamic language switching  
-- Extensible i18n architecture  
+### 🌍 **Multi-Language Support**
+- **i18n Implementation** - Internationalization
+- **Turkish Support** - Full Turkish language support
+- **English Support** - Full English language support
+- **Foreign Language Support** - Extensible language architecture
+- **Dynamic Language Switching** - Dynamic language switching
 
-### 🧪 Testing & Quality Assurance
-- Unit testing  
-- Integration testing  
-- Performance testing  
+### 🧪 **Testing and Quality Assurance**
+- **Unit Testing** - Unit tests
+- **Integration Testing** - Integration tests
+- **Error Handling Testing** - Error management tests
+- **Performance Testing** - Performance tests
+
+### 📱 **Mobile Application Features**
+- **Voice Input** - Voice input support
+- **Text-to-Speech** - Voice response
+- **Offline Support** - Offline operation support
+- **Push Notifications** - Notification system
+- **Deep Linking** - Deep link support
 
 ---
 
 ## ✨ Features
 
-### 🤖 AI Assistant
-- Gemini AI-powered natural language processing  
-- Smart message analysis  
-- Fuzzy search with Fuse.js  
-- Multi-turn conversation support  
+### 🤖 **AI Assistant Features**
+- **Gemini AI Integration** - Natural language processing with Google's most advanced AI model
+- **Smart Message Analysis** - Analyzing user messages and routing to the correct endpoint
+- **Fuzzy Search** - Smart search algorithm with Fuse.js
+- **Context Awareness** - Context-aware responses
+- **Multi-turn Conversations** - Support for multi-turn conversations
 
-### 🏛️ University Data (613+ APIs)
-- 🍽️ Daily dining menus  
-- 🎉 University events  
-- 📢 Faculty announcements  
-- 📰 University news  
-- 📚 Library information  
+### 🏛️ **University Data Integration (613+ APIs)**
+- **🍽️ Dining Menu** - Daily dining menu information (real-time)
+- **🎉 Events** - All university events (Turkish/English)
+- **📢 Announcements** - Faculty and general announcements (600+ faculties)
+- **📰 News** - University news
+- **📚 Library** - Library floors and table occupancy status
+- **🏛️ Faculty Announcements** - Announcements from all faculties (613+ endpoints)
 
-### 🌤️ Weather Integration
-- Real-time weather data  
-- 7-day forecast  
-- Hourly forecast  
-- Smart weather alerts  
+### 🌤️ **Weather API Integration**
+- **Real-Time Weather** - WeatherAPI.com integration
+- **Daily Forecast** - 7-day weather forecast
+- **Hourly Forecast** - 24-hour detailed forecast
+- **Widget Display** - Weather widget on the home screen
+- **Smart Alerts** - Automatic suggestions based on weather conditions
+
+### 🎨 **User Interface**
+- **WhatsApp-like UI** - Modern and familiar chat interface
+- **Gradient Design** - Modern gradient backgrounds
+- **Animations** - Smooth transition animations
+- **Avatar Animations** - Avatar animations during conversation
+- **Responsive Layout** - Compatible with all screen sizes
+
+### 🔧 **Technical Features**
+- **Hybrid Cache System** - Memory + Persistent (AsyncStorage) cache
+- **State Control** - Advanced state management and control
+- **Retry Mechanism** - Automatic retry with exponential backoff
+- **Error Handling** - Comprehensive global error management
+- **Input Validation** - Secure data entry and sanitization
+- **Memory Leak Protection** - Protection against memory leaks
+- **Network Status** - Network status tracking and offline support
+
+### 🌍 **Multi-Language Support**
+- **Turkish** - Full Turkish language support
+- **English** - Full English language support
+- **Foreign Language Support** - Extensible language architecture
+- **Dynamic Language Switching** - Instant language switching within the app
+- **Localization** - Localization for all content
+
+---
+
+## 🏗️ Technical Details
+
+### 📊 **Architectural Structure**
+
+```
+Frontend (React Native/Expo)
+├── State Management (Context API + Hooks)
+├── Service Layer (API, Cache, Analysis)
+├── Component Architecture
+└── Error Boundary & Global Error Handler
+
+Backend (Node.js/Express)
+├── API Gateway (613+ Endpoint Management)
+├── Controller Layer
+├── Service Layer
+└── Route Management (Dynamic Routes)
+```
+
+### 🔄 **API Management System**
+
+- **613+ Endpoints** - Automatic endpoint discovery and management
+- **Dynamic Routing** - Dynamic route creation
+- **Fuzzy Matching** - Smart endpoint finding with Fuse.js
+- **Category Management** - Category-based endpoint organization
+- **Caching Strategy** - Endpoint-based cache strategies
+
+### 💾 **Cache Strategy**
+
+- **Memory Cache** - RAM cache for fast access (100MB limit)
+- **Persistent Cache** - Permanent cache with AsyncStorage (500MB limit)
+- **Hybrid Strategy** - Combination of Memory + Persistent
+- **LRU Algorithm** - Cleaning least used items
+- **TTL Management** - Category-based TTL management
+- **Auto Cleanup** - Automatic cache cleanup
+
+### 🔁 **Retry Mechanism**
+
+- **Exponential Backoff** - Exponential backoff algorithm
+- **Network Error Retry** - Automatic retry on network errors
+- **Timeout Handling** - Timeout management
+- **Max Retry Limit** - Maximum retry count control
+
+### 🛡️ **Security Features**
+
+- **Input Validation** - Comprehensive input validation
+- **XSS Protection** - Cross-site scripting protection
+- **SQL Injection Prevention** - Prevention of SQL injection
+- **Sanitization** - Data cleaning and sanitization
+- **Rate Limiting** - Request rate limiting
 
 ---
 
 ## 🚀 Installation
 
 ### Requirements
-- Node.js (v16+)  
-- npm or yarn  
-- Expo CLI  
+- Node.js (v16 or higher)
+- npm or yarn
+- Expo CLI
+- Android Studio (for Android)
+- Xcode (for iOS)
 
-### Clone the Repository
+### 1. Clone the Project
 ```bash
 git clone <repository-url>
 cd firat-asistan
-````
+```
 
-### Install Dependencies
+### 2. Install Dependencies
 
+**Frontend (React Native/Expo):**
 ```bash
 npm install
 ```
 
-### Run the App
+**Backend (Node.js):**
+```bash
+cd backend
+npm install
+```
 
+### 3. Set Environment Variables
+
+**Create a `.env` file for Backend:**
+```env
+PORT=3000
+NODE_ENV=development
+FIRAT_DDYO_URL=https://ddyo.firat.edu.tr
+FIRAT_MAIN_URL=https://www.firat.edu.tr
+MAIN_TOKEN=your_token_here
+GEMINI_API_KEY=your_gemini_key_here
+WEATHER_API_KEY=your_weather_key_here
+```
+
+**Create a `.env` file for Frontend:**
+```env
+EXPO_PUBLIC_BACKEND_URL=http://your-ip:3000/api
+EXPO_PUBLIC_API_BASE_URL=http://your-ip:3000
+```
+
+### 4. Run the Application
+
+**Start the Backend:**
+```bash
+cd backend
+npm start
+```
+
+**Start the Frontend:**
 ```bash
 npm start
 ```
 
 ---
 
+## 📱 Usage
+
+### Basic Usage
+1. Open the application
+2. Select your language (Turkish/English)
+3. Type your question or ask via voice
+4. The AI assistant will respond to you
+
+### Sample Questions
+- "What's on the menu today?"
+- "Architecture faculty announcements"
+- "Library table status"
+- "What are the events this week?"
+- "Medical faculty announcements"
+- "How is the weather?"
+
+---
+
+## 📊 Project Statistics
+
+- **613+ API Endpoints** - Number of managed endpoints
+- **600+ Faculties** - Announcement system integration
+- **3 Language Support** - Turkish, English, Foreign languages
+- **100MB Memory Cache** - For fast access
+- **500MB Persistent Cache** - Permanent data storage
+- **Live Usage** - Active usage by Fırat University
+
+---
+
+## 🛠️ Developer Guide
+
+For detailed developer documentation:
+- [API Documentation](docs/API.md)
+- [Code Documentation](docs/CODE_DOCUMENTATION.md)
+- [Developer Guide](docs/DEVELOPER_GUIDE.md)
+
+
 ## 📄 License
 
-MIT License
+This project is licensed under the MIT License.
 
 ---
 
 ## 👥 Developer
 
-**Esra** – Fırat University AI Assistant Project
+**Esra** - Fırat University AI Assistant Project
 
-Actively used in production as Fırat University’s official mobile application.
+This project was developed as the official mobile application of Fırat University and is actively used in a live production environment.
 
 ---
 
-⭐ If you like this project, don’t forget to give it a star!
+<div align="center">
 
+**⭐ If you liked this project, don't forget to give it a star!**
+
+Made with ❤️ for Fırat University
+
+</div>
 ```
-
-İstersen bir sonraki adımda:
-- README’yi **CV’ye daha da güçlü gösterecek şekilde** sadeleştirebilirim  
-- ya da **“production-grade project” vurgusunu daha da parlatabiliriz** 🚀
-```
-
 ```
 
 
