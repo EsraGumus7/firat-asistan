@@ -345,10 +345,7 @@ Made with ❤️ for Fırat University
 
 </div>
 ```
-```
 
-
-```
 
 
 
