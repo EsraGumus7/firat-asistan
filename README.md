@@ -1,3 +1,5 @@
+🇹🇷 Türkçe açıklama aşağıdadır. / Turkish documentation is available below.
+
 
 # 🤖 Şeri - Fırat University AI Assistant
 
